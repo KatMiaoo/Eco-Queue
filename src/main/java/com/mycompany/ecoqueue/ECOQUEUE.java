@@ -4,8 +4,6 @@
  */
 package com.mycompany.ecoqueue;
 
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author Kim
@@ -91,7 +89,7 @@ public class ECOQUEUE extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(206, 206, 206)
+                        .addGap(380, 380, 380)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jshowtext)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -100,15 +98,15 @@ public class ECOQUEUE extends javax.swing.JFrame {
                                 .addComponent(jtuser)
                                 .addComponent(jpassword, javax.swing.GroupLayout.DEFAULT_SIZE, 261, Short.MAX_VALUE))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(280, 280, 280)
+                        .addGap(460, 460, 460)
                         .addComponent(jlogin, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(200, Short.MAX_VALUE))
+                .addContainerGap(380, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(DESIGN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(65, 65, 65)
+                .addGap(95, 95, 95)
                 .addComponent(Email)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jtuser, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -120,7 +118,7 @@ public class ECOQUEUE extends javax.swing.JFrame {
                 .addComponent(jshowtext)
                 .addGap(18, 18, 18)
                 .addComponent(jlogin, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 63, Short.MAX_VALUE))
+                .addGap(0, 114, Short.MAX_VALUE))
         );
 
         pack();
