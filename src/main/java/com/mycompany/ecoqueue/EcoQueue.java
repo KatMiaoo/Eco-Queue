@@ -4,18 +4,20 @@
  */
 package com.mycompany.ecoqueue;
 
+import com.mycompany.ecoqueue.Dashboard;
+import javax.swing.JOptionPane;
 /**
  *
  * @author Kim
  */
-public class ECOQUEUE extends javax.swing.JFrame {
+public class EcoQueue extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(ECOQUEUE.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(EcoQueue.class.getName());
 
     /**
      * Creates new form ECOQUEUE
      */
-    public ECOQUEUE() {
+    public EcoQueue() {
         initComponents();
     }
 
@@ -33,9 +35,9 @@ public class ECOQUEUE extends javax.swing.JFrame {
         Email = new javax.swing.JLabel();
         jtuser = new javax.swing.JTextField();
         Password = new javax.swing.JLabel();
-        jpassword = new javax.swing.JTextField();
         jlogin = new javax.swing.JButton();
         jshowtext = new javax.swing.JCheckBox();
+        jpassword = new javax.swing.JPasswordField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -69,10 +71,6 @@ public class ECOQUEUE extends javax.swing.JFrame {
         Password.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         Password.setText("Password");
 
-        jpassword.setText("   ");
-        jpassword.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jpassword.addActionListener(this::jpasswordActionPerformed);
-
         jlogin.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jlogin.setText("Log In");
         jlogin.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -89,27 +87,28 @@ public class ECOQUEUE extends javax.swing.JFrame {
         jshowtext.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jshowtext.setText("Show Password");
 
+        jpassword.setText("jPasswordField1");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(DESIGN, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(402, 402, 402)
-                        .addComponent(jlogin, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(322, 322, 322)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(152, 152, 152)
-                                .addComponent(jshowtext))
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(Password)
-                                .addComponent(Email)
-                                .addComponent(jtuser)
-                                .addComponent(jpassword, javax.swing.GroupLayout.PREFERRED_SIZE, 261, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jpassword, javax.swing.GroupLayout.PREFERRED_SIZE, 261, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                            .addGap(402, 402, 402)
+                            .addComponent(jlogin, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createSequentialGroup()
+                            .addGap(322, 322, 322)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(jshowtext)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(Password)
+                                    .addComponent(Email)
+                                    .addComponent(jtuser, javax.swing.GroupLayout.PREFERRED_SIZE, 261, javax.swing.GroupLayout.PREFERRED_SIZE))))))
                 .addContainerGap(362, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -141,11 +140,21 @@ public class ECOQUEUE extends javax.swing.JFrame {
 
     private void jloginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jloginActionPerformed
         // TODO add your handling code here:
+        String user = jtuser.getText();
+        String pass = new String(jpassword.getPassword());
+        
+        //Example hardcoded login
+        if (user.equals("admin") && pass.equals("12345")) {
+            //Open Dashbaord
+            Dashboard dash = new Dashboard();
+            dash.setVisible(true);
+            
+            //Close Login Window
+            this.dispose();
+        } else {
+            JOptionPane.showMessageDialog(this, "Invalid username and password!");
+        }
     }//GEN-LAST:event_jloginActionPerformed
-
-    private void jpasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jpasswordActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jpasswordActionPerformed
 
     private void jloginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jloginMouseClicked
         // TODO add your handling code here:
@@ -177,7 +186,7 @@ public class ECOQUEUE extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new ECOQUEUE().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new EcoQueue().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -186,7 +195,7 @@ public class ECOQUEUE extends javax.swing.JFrame {
     private javax.swing.JLabel LogoImage;
     private javax.swing.JLabel Password;
     private javax.swing.JButton jlogin;
-    private javax.swing.JTextField jpassword;
+    private javax.swing.JPasswordField jpassword;
     private javax.swing.JCheckBox jshowtext;
     private javax.swing.JTextField jtuser;
     // End of variables declaration//GEN-END:variables

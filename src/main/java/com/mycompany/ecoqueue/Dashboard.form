@@ -52,81 +52,107 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Component id="jPanel3" alignment="1" max="32767" attributes="0"/>
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="Omelette_Image" alignment="1" min="-2" pref="155" max="-2" attributes="0"/>
-                  <Component id="FoodName2" alignment="1" min="-2" pref="155" max="-2" attributes="0"/>
-                  <Component id="jLabel5" alignment="1" min="-2" pref="155" max="-2" attributes="0"/>
-                  <Component id="jLabel7" min="-2" pref="155" max="-2" attributes="0"/>
-                  <Component id="jLabel3" min="-2" pref="155" max="-2" attributes="0"/>
-                  <Component id="mealsTextField" min="-2" pref="112" max="-2" attributes="0"/>
-              </Group>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="FoodName5" min="-2" max="-2" attributes="0"/>
-                              <Component id="Food4" min="-2" max="-2" attributes="0"/>
-                              <Component id="FoodName1" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                              <Component id="FoodName3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
-                          <Component id="jSpinner1" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="mealsTextField" min="-2" pref="112" max="-2" attributes="0"/>
+                          <Component id="Omelette_Image" min="-2" pref="155" max="-2" attributes="0"/>
+                          <Component id="FoodName2" alignment="0" min="-2" pref="155" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="jSpinner2" min="-2" max="-2" attributes="0"/>
-                          <Component id="jSpinner3" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jSpinner4" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jSpinner5" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel3" alignment="1" min="-2" pref="155" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="1" min="-2" pref="155" max="-2" attributes="0"/>
+                          <Component id="jLabel7" alignment="1" min="-2" pref="155" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="267" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="drinksTextField" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Food4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="FoodName3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="FoodName1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="264" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="FoodName5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="281" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="139" max="-2" attributes="0"/>
+                              <Component id="jSpinner1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jSpinner2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinner3" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinner4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinner5" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="211" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="MangoJuice_Image" min="-2" pref="155" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="JuiceName1" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                      <Component id="jSpinner6" min="-2" max="-2" attributes="0"/>
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="JuiceName3" alignment="1" min="-2" pref="155" max="-2" attributes="0"/>
-                                  <Component id="jLabel6" min="-2" pref="156" max="-2" attributes="0"/>
-                                  <Component id="jLabel8" min="-2" pref="155" max="-2" attributes="0"/>
-                              </Group>
-                              <Component id="jLabel1" alignment="1" min="-2" pref="155" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="JuiceName1" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="138" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jSpinner7" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinner6" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinner8" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinner9" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinner10" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="JuiceName3" alignment="1" min="-2" pref="155" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" min="-2" pref="156" max="-2" attributes="0"/>
+                                      <Component id="jLabel8" min="-2" pref="155" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel1" alignment="1" min="-2" pref="155" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel18" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="JuiceName4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Group type="102" attributes="0">
-                                      <Component id="JuiceName2" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jSpinner7" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Component id="jSpinner9" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JuiceName2" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="jSpinner10" min="-2" max="-2" attributes="0"/>
                           </Group>
+                          <Component id="drinksTextField" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="jSpinner8" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="139" max="32767" attributes="0"/>
               <Component id="jScrollBar1" min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -137,7 +163,7 @@
               <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
@@ -145,73 +171,79 @@
                                   <Component id="drinksTextField" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="FoodName1" min="-2" pref="36" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="jSpinner1" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                      <Component id="Omelette_Image" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="MangoJuice_Image" alignment="3" min="-2" pref="155" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
-                                      <Component id="jSpinner2" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="324" max="-2" attributes="0"/>
-                                      <Component id="jSpinner4" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="145" max="-2" attributes="0"/>
-                                      <Component id="jSpinner5" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="FoodName1" min="-2" pref="36" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="jSpinner1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                                   </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="FoodName2" alignment="0" min="-2" pref="155" max="-2" attributes="0"/>
-                                          <Component id="jLabel10" min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="Omelette_Image" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="MangoJuice_Image" alignment="3" min="-2" pref="155" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <Component id="FoodName3" min="-2" pref="36" max="-2" attributes="0"/>
-                                              <EmptySpace max="32767" attributes="0"/>
-                                              <Component id="jSpinner3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Component id="jLabel3" min="-2" pref="155" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jLabel5" alignment="0" min="-2" pref="155" max="-2" attributes="0"/>
-                                          <Component id="Food4" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
-                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="FoodName2" min="-2" pref="155" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Component id="jSpinner2" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jSpinner3" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="FoodName3" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" min="-2" pref="155" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel5" alignment="0" min="-2" pref="155" max="-2" attributes="0"/>
+                                      <Component id="Food4" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jSpinner4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="FoodName5" min="-2" pref="36" max="-2" attributes="0"/>
                                           <Component id="jLabel7" min="-2" pref="155" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jSpinner5" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
+                              <EmptySpace pref="33" max="32767" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="180" max="-2" attributes="0"/>
                               <Component id="JuiceName1" min="-2" pref="36" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
                               <Component id="jSpinner6" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" attributes="0">
-                                      <Component id="JuiceName2" min="-2" pref="36" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="116" max="-2" attributes="0"/>
-                                      <Component id="jSpinner7" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" attributes="0">
-                                              <Component id="jLabel16" min="-2" pref="36" max="-2" attributes="0"/>
-                                              <EmptySpace max="32767" attributes="0"/>
-                                              <Component id="jSpinner8" min="-2" max="-2" attributes="0"/>
+                                              <Component id="JuiceName2" min="-2" pref="36" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
                                           </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="jSpinner7" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel16" min="-2" pref="36" max="-2" attributes="0"/>
                                           <Component id="JuiceName3" min="-2" pref="155" max="-2" attributes="0"/>
+                                          <Component id="jSpinner8" alignment="1" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -236,7 +268,7 @@
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="168" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
@@ -570,7 +602,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel18">
       <Properties>
-        <Property name="text" type="java.lang.String" value="JuiceName5"/>
+        <Property name="text" type="java.lang.String" value="TOMATOE JUICE - &#x20b1;15"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JScrollBar" name="jScrollBar1">
