@@ -29,6 +29,7 @@ public class ECOQUEUE extends javax.swing.JFrame {
     private void initComponents() {
 
         DESIGN = new javax.swing.JPanel();
+        LogoImage = new javax.swing.JLabel();
         Email = new javax.swing.JLabel();
         jtuser = new javax.swing.JTextField();
         Password = new javax.swing.JLabel();
@@ -38,18 +39,25 @@ public class ECOQUEUE extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        DESIGN.setBackground(new java.awt.Color(0, 153, 0));
-        DESIGN.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        DESIGN.setBackground(new java.awt.Color(204, 204, 204));
+        DESIGN.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        LogoImage.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        LogoImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/rsz_eco_logo_no_bg.png"))); // NOI18N
+        LogoImage.setText("ECO-QUEUE");
 
         javax.swing.GroupLayout DESIGNLayout = new javax.swing.GroupLayout(DESIGN);
         DESIGN.setLayout(DESIGNLayout);
         DESIGNLayout.setHorizontalGroup(
             DESIGNLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(DESIGNLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(LogoImage, javax.swing.GroupLayout.PREFERRED_SIZE, 213, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         DESIGNLayout.setVerticalGroup(
-            DESIGNLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 74, Short.MAX_VALUE)
+            DESIGNLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+            .addComponent(LogoImage)
         );
 
         Email.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -85,32 +93,34 @@ public class ECOQUEUE extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(DESIGN, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(DESIGN, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(338, 338, 338)
+                        .addGap(402, 402, 402)
+                        .addComponent(jlogin, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(322, 322, 322)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jshowtext)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(152, 152, 152)
+                                .addComponent(jshowtext))
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addComponent(Password)
                                 .addComponent(Email)
                                 .addComponent(jtuser)
-                                .addComponent(jpassword, javax.swing.GroupLayout.DEFAULT_SIZE, 261, Short.MAX_VALUE))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(411, 411, 411)
-                        .addComponent(jlogin, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(338, Short.MAX_VALUE))
+                                .addComponent(jpassword, javax.swing.GroupLayout.PREFERRED_SIZE, 261, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(362, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(DESIGN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(95, 95, 95)
+                .addComponent(DESIGN, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(89, 89, 89)
                 .addComponent(Email)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jtuser, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(31, 31, 31)
+                .addGap(32, 32, 32)
                 .addComponent(Password)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jpassword, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -118,7 +128,7 @@ public class ECOQUEUE extends javax.swing.JFrame {
                 .addComponent(jshowtext)
                 .addGap(18, 18, 18)
                 .addComponent(jlogin, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 114, Short.MAX_VALUE))
+                .addGap(107, 107, 107))
         );
 
         pack();
@@ -173,6 +183,7 @@ public class ECOQUEUE extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel DESIGN;
     private javax.swing.JLabel Email;
+    private javax.swing.JLabel LogoImage;
     private javax.swing.JLabel Password;
     private javax.swing.JButton jlogin;
     private javax.swing.JTextField jpassword;
